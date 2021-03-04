@@ -1,0 +1,166 @@
+/*
+    External Style Sheet for all Daily Sun Aura pages
+*/
+
+/* Body & Everywhere */
+body#override-bootstrap {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* index.php page */
+div#postal_code_form {
+    width: fit-content;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1#index_h1 {
+    /*margin-bottom: 1em; */
+    margin-bottom: .5em;
+}
+img.circlecrop {
+    height: 100vmin;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img#second_circlecrop {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+button.big_clear_button {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    border-radius: 50%; /* makes a circle */
+    height: 100vmin;
+    width: 100vmin;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#back_button_div {
+    width: fit-content;
+}
+button#back_button {
+    color: darkgray;
+    background-color: white;
+}
+button#back_button:hover {
+    color: white;
+    background-color: #535353;
+}
+
+/* admin nav bar adminNav.php */
+nav.navbar {
+    z-index: 1000;
+}
+
+/* admin.php page */
+div#admin_container {
+    width: 20em;
+}
+h1#admin_h1 {
+    text-align: center;
+    margin-top: .25em;
+    margin-bottom: 1em;
+}
+p#select_task {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+a#add_color_btn, a#delete_color_btn {
+    margin-top: 0;
+    margin-bottom: .75em;
+}
+
+/* addColors.php and testing.php page */
+h1#add_color_h1, h1#testing_h1 {
+    margin-top: .25em;
+    margin-bottom: 1em;
+}
+h1#add_color_trio_h1, h1#add_color_duo_h1 {
+    font-size: 2.3em;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+p.text-secondary {
+    margin-bottom: 1.75em;
+}
+p.last_paragraph {
+    margin-bottom: 2em;
+}
+div#add_color_form, div#testing_form, div#second_testing_form {
+    width: 16em;
+    margin: 0 auto;
+}
+.form-check {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+button#add_colors_button {
+    margin-top: 1em;
+}
+button#select_type_button {
+    margin-top: 1em;
+}
+label#radio_label {
+    margin-bottom: .5em;
+}
+
+/* testing.php page */
+h2#another_test_h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h2.aura_info {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: .25em;
+}
+div#second_testing_form {
+    position: fixed;
+    top: 0%;
+    left: 80%;
+    transform: translate(20%, 0%);
+}
+button#test_type_button1, button#test_type_button2, 
+        button#test_type_button3, button#test_type_button4 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* deleteColors.php page */
+h1.delete_h1 {
+    text-align: center;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+h2.delete_col_headers {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+a.black_link {
+    color: black;
+}
+a.black_link:hover {
+    color: darkgrey;
+}
+
+/* deleteColorsConfirm.php page */
+p#confirm_delete {
+    text-align: center;
+    width: fit-content;
+    margin: 1em auto;
+}
+form#confirm_delete_form {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2em;
+}
