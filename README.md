@@ -3,7 +3,7 @@ Sunlight Illustration Generator
 
 PHP Web Application with Bootstrap 4 and MySQL
 
-*** IMP: this project won't work for you unless you obtain your own API key from openweathermap.org, and dowload Composer and Guzzle.  Please check out this YouTube walkthrough to see the project in greater detail: https://youtu.be/rwOJTNuAb2g ***
+*** IMP: this project won't work for you unless you obtain your own API key from openweathermap.orgPlease check out this YouTube walkthrough to see the project in greater detail: https://youtu.be/rwOJTNuAb2g ***
 
 Daily Sun Aura is a web application I created that uses a web service (API) to illustrate the amount of daily sunlight in the selected location (zip code). Colors and images (that I created in Photoshop) are chosen randomly within the parameters of: if it's clear or cloudy, and the total number of daylight hours of the current day. The images are colorized with CSS, rotated semi-randomly, and layered, creating a unique aura!
 
